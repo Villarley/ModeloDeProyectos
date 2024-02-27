@@ -1,0 +1,35 @@
+---
+import projects from "../assets/projects.jpg";
+import Link from "@components/ui/link.astro";
+// import { Picture } from "astro:assets";
+import heroImage from "assets/hero.png";
+---
+
+<main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
+  <div class="py-6 md:order-1 hidden md:block">
+    <!-- <img src={projects} alt="Projects"/> --> 
+  </div>
+  <div>
+    <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
+      El método de proyectos para formación profesional
+    </h1>
+    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+    Una estructura para desarrollar proyectos con un enfoque más didactico, directo y fácil de aplicar. Guía a los proyectos hacía el éxito si cada una de las fases se cumple.
+    </p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3">
+      <Link
+        href="#"
+        href="https://web3templates.com/"
+        target="_blank"
+        rel="noopener">Video explicativo del paso a paso</Link
+      >
+      <Link
+        size="lg"
+        style="outline"
+        rel="noopener"
+        href={"/manual.pdf"}
+        target="_blank">Ver documento</Link
+      >
+    </div>
+  </div>
+</main>

@@ -1,0 +1,79 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+{
+  title: "1. Informar",
+  link:"Informar",
+  description:
+  "Recopilar todos los datos necesarios para poder tener gran variedad de posibilidades.",
+  icon: "bx:bxs-briefcase",
+},
+{
+  title: "2. Planificar",
+  link:"Planificar",
+  description:
+  "Paso fundamental para el éxito del proyecto, se elabora un plan para el proyecto.",
+  icon: "bx:bxs-window-alt",
+},
+{
+  title: "3. Decidir",
+  link:"Decidir",
+  description:
+  "En este momento basado en la información recopilada y el plan se escogen estrategias para llevar a cabo el plan.",
+  icon: "bx:bxs-data",
+},
+{
+  title: "4. Ejecutar",
+  link:"Ejecutar",
+  description:
+  "En este paso se lleva a cabo el plan, en donde pueden surgir cambios dependiendo de las necesidades.",
+  icon: "bx:bxs-bot",
+},
+{
+  title: "5. Controlar",
+  link:"Controlar",
+  description:
+  "Después de realizado el proyecto se da una retroalimentación tanto grupal como individual.",
+  icon: "bx:bxs-file-find",
+},
+{
+  title: "6. Valorar",
+  link:"Valorar",
+  description:
+  "Se hace una valoración de todo lo que se llevo cabo, tanto éxito como fracasos para dar puntos de mejora.",
+  icon: "bx:bxs-user",
+},
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Los pasos para un adecuado modelo de proyectos.
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Reemplazando el modelo tradicional de transmión de conocimientos a algo más moderno.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+    <div class="w-full flex gap-4 items-start">
+      <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+        <Icon class="text-white" name={item.icon} />
+      </div>
+      <div>
+          <div class="flex justify-between">
+            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <a href={"steps/"+item.link} class="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-1 border border-gray-400 rounded shadow">ver más</a >
+          </div>
+
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+      ))
+    }
+  </div>
+  
