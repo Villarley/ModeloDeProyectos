@@ -139,7 +139,7 @@ const { title, text, tools, examples } = Astro.props;
   <ul class="flex justify-center gap-4 mb-6">
     {
       tools.map((tool, index) => (
-        <a class=" hover:scale-110 transition-all" href={tool.link}>
+        <a target="_blank" class=" hover:scale-110 transition-all" href={tool.link}>
         <li class="rounded-full ">
           <img src={tool.photo} alt="" />
         </li>
