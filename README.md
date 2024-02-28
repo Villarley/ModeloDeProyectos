@@ -9,30 +9,12 @@ Alternativamente, puedes clonar el proyecto directamente desde este repositorio 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/surjithctly/astroship.git miNombreDeProyecto
-# o
-git clone https://github.com/surjithctly/astroship.git .
+git clone https://github.com/villarley/astroship.git
 npm install
 # o
-yarn install
-# o (recomendado)
-pnpm install
 npm run dev
-# o
-yarn dev
-# o (recomendado)
-pnpm dev
 npm run preview
 npm run build
-# o
-yarn preview
-yarn build
-# o (recomendado)
-pnpm preview
-pnpm build
-pnpm astro ...
-pnpm astro add
-pnpm astro --help
 ##Estructura
 /
 ├── public/
