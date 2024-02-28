@@ -1,69 +1,39 @@
-# Modelo Proyectos
+# Modelo de Proyectos
 
-## Installation
+## Instalación
 
-If you are reading this on github, you can click on the "Use this template" button above to create a new repository from astroship to your account. Then you can do a `git clone` to clone it to your local system.
+Si estás leyendo esto en GitHub, puedes hacer clic en el botón "Usar esta plantilla" arriba para crear un nuevo repositorio desde astroship hacia tu cuenta. Luego puedes hacer un `git clone` para clonarlo en tu sistema local.
 
-Alternatively, you can clone the project directly from this repo to your local system.
+Alternativamente, puedes clonar el proyecto directamente desde este repositorio hacia tu sistema local.
 
-### 1. Clone the repo
+### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/surjithctly/astroship.git myProjectName
-# or
+git clone https://github.com/surjithctly/astroship.git miNombreDeProyecto
+# o
 git clone https://github.com/surjithctly/astroship.git .
-```
-
-The `.` will clone it to the current directory so make sure you are inside your project folder first.
-
-### 2. Install Dependencies
-
-```bash
 npm install
-# or
+# o
 yarn install
-# or (recommended)
+# o (recomendado)
 pnpm install
-```
-
-### 3. Start development Server
-
-```bash
 npm run dev
-# or
+# o
 yarn dev
-# or (recommended)
+# o (recomendado)
 pnpm dev
-```
-
-### Preview & Build
-
-```bash
 npm run preview
 npm run build
-# or
+# o
 yarn preview
 yarn build
-# or (recommended)
+# o (recomendado)
 pnpm preview
 pnpm build
-```
-
-We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
-
-### Other Commands
-
-```bash
 pnpm astro ...
 pnpm astro add
 pnpm astro --help
-```
-
-## Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
+##Estructura
 /
 ├── public/
 │   └── ...
@@ -75,9 +45,3 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── pages/
 │       └── ...
 └── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
