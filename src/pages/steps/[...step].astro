@@ -11,7 +11,7 @@ export async function getStaticPaths() {
       step: "Informar",
       title: "Informar",
       text: "Durante este proceso se recopila toda la información necesaria para abarcar el tema o problema en cuestión. El planteamiento de las tareas debe darse con forme a la experiencia que ya tienen los aprendices. Es necesario romper el individualismo y hacer un trabajo de colaboración en busca de soluciones al problemática planteada.",
-      tools: [{photo:Youtube, link:"youtube.com"}, {photo:Google, link:"google.com"}, {photo:Twitter, link:"twitter.com"},],
+      tools: [{photo:Youtube, link:"https://youtube.com"}, {photo:Google, link:"https://google.com"}, {photo:Twitter, link:"https://twitter.com"},],
       examples: [
         {
           title: "Viajar a Alemania",
@@ -29,7 +29,7 @@ export async function getStaticPaths() {
       step: "Planificar",
       title: "Planificar",
       text: "En esta fase se elabora el plan de trabajo, la estructura y los instrumentos y medios de trabajo. La elaboración de un plan no certifica su realización, por lo que es necesario entender que esta etapa puede no concluir del todo. Puntos a definir:Todos los miembros del grupo participan de forma conjunta en la elaboración del producto. Se forman diferentes grupos de trabajo para cada una de las piezas del producto",
-      tools: [{photo:GoogleCalendar, link:"calendar.google.com"}, {photo:Notion, link:"notion.so"},],
+      tools: [{photo:GoogleCalendar, link:"https://calendar.google.com"}, {photo:Notion, link:"https://notion.so"},],
       examples: [
         {
           title: "Desarrollar una aplicación web",
@@ -47,7 +47,7 @@ export async function getStaticPaths() {
       step: "Decidir",
       title: "Decidir",
       text: "Antes de pasar a la fase de realización de lo práctico existen ciertas decisiones que son necesarias realizar para el buen funcionamiento del grupo tales como posibles estrategias.Una de las habilidades que más se desarrollan en esta fase es la negociación para tomar la decisión que más adecuada parezca sin tomar en cuenta beneficios personales.",
-      tools: [{photo:Trello, link:"trello.com"}, {photo:Asana, link:"asana.com"}],
+      tools: [{photo:Trello, link:"https://trello.com"}, {photo:Asana, link:"https://asana.com"}],
       examples: [
         {
           title: "Cocinar pasta",
@@ -65,7 +65,7 @@ export async function getStaticPaths() {
       step: "Ejecutar",
       title: "Ejecutar",
       text: "Durante esta etapa es esencial la acción experiencial e investigadora pasa a ocupar un lugar prioritario. Se ejercita y analiza la acción creativa, autónoma y responsable. Aquí se empieza a notar que tan efectivas y realistas fueron las primeras tres fases, se da retroalimentación tanto individual como grupal para poder seguir mejorando durante esta fase. Aquí es esencial la realización autónoma del trabajo, sin dejar de lado que los alumnos no se deben sentir solos.",
-      tools: [{photo:Slack, link:"slack.com"}, {photo:Jira, link:"atlassian.com"}, {photo:Github, link:"github.com"}],
+      tools: [{photo:Slack, link:"https://slack.com"}, {photo:Jira, link:"https://atlassian.com"}, {photo:Github, link:"https://github.com"}],
       examples: [
         {
           title: "Hacer una tarea",
@@ -83,7 +83,7 @@ export async function getStaticPaths() {
       step: "Controlar",
       title: "Controlar",
       text: "Durante esta etapa es esencial la acción experencial e investigadora pasa a ocupar un lugar prioritario. Se ejercita y analiza la acción creativa, autonoma y responsable. Aquí se empieza a notar que tan efectivas y realistas fueron las primeras tres fases, se da retroalimentación tanto individual como grupal para poder seguir mejorando durante esta fase. Aquí es esencial la realización autonoma del trabajo, sin dejar de lado que los aluimnos no se deben sentir solos.",
-      tools: [{photo:Basecamp, link:"basecamp.com"}, {photo:GoogleAnalytics, link:"analytics.google.com"}, {photo:Jenkins, link:"jenkins.io"}],
+      tools: [{photo:Basecamp, link:"https://basecamp.com"}, {photo:GoogleAnalytics, link:"https://analytics.google.com"}, {photo:Jenkins, link:"https://jenkins.io"}],
       examples: [
         {
           title: "Hacer unas pastas",
@@ -101,7 +101,7 @@ export async function getStaticPaths() {
       step: "Valorar",
       title: "Valorar",
       text: "En esta fase se lleva a cabo una discusión final en la que el formador y los alumnos comentan los resultados obtenidos. Aquí el formador facilita una retroalimentación a todos los estudiantes, no solo sobre el producto final sino sobre el proceso que se ha venido llevando, aquí es esencial recalcar todo el proceso incluyendo los errores, éxitos, rendimiento y procesos grupales. Seguidamente es esencial el plantear los posibles puntos de mejora tanto individuales como grupales ",
-      tools: [{photo:GoogleForms, link:"docs.google.com/forms"}],
+      tools: [{photo:GoogleForms, link:"https://docs.google.com/forms"}],
       examples: [
         {
           title: "Construir una casa",
@@ -139,7 +139,7 @@ const { title, text, tools, examples } = Astro.props;
   <ul class="flex justify-center gap-4 mb-6">
     {
       tools.map((tool, index) => (
-        <a class=" hover:scale-110 transition-all" href={tool.link}>
+        <a target="_blank" class=" hover:scale-110 transition-all" href={tool.link}>
         <li class="rounded-full ">
           <img src={tool.photo} alt="" />
         </li>
