@@ -6,14 +6,6 @@ import "@fontsource/inter/variable.css";
 export interface Props {
   title: string;
 }
-// const { src } = await getImage({
-//   src: "../../assets/hero.png",
-//   width: 800,
-//   height: 742,
-//   format: "avif",
-// });
-// console.log(src);
-const resolvedImageWithDomain = new URL("/opengraph.jpg", Astro.url).toString();
 const { title } = Astro.props;
 ---
 
@@ -24,14 +16,17 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
   </head>
-  <body>
+  <body class="flex flex-col min-h-screen">
     <Navbar />
-    <slot />
-    <!-- <Footer /> -->
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <Footer />
     <style is:global>
+      html{
+        scroll-behavior: smooth;
+      }
       /* Improve Page speed */
       /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
       img {
