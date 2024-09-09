@@ -17,9 +17,5 @@ Astroship offers a step-by-step guide for implementing project-based learning in
 
 ## Usage
 
-Visit the [Astroship platform](https://villarley.github.io/astroship/) for a complete step-by-step guide, including documents and explanatory videos, to help you successfully implement this project model in your educational or professional environment.
-
-## Contributions
-
-Contributions are welcome! Feel free to open issues or submit pull requests with improvements to the methodology or platform.
+Visit the [Astroship](https://villarley.github.io/astroship/) for a complete step-by-step guide, including documents and explanatory videos, to help you successfully implement this project model in your educational or professional environment.
 
