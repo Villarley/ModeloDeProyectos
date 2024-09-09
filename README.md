@@ -1,29 +1,25 @@
-# Modelo de Proyectos
+# Astroship
 
-## Instalación
+Astroship is a platform aimed at teaching the **"Modelo de Proyectos para Formación Profesional"**. This structure provides a straightforward and practical approach for developing successful projects by following a series of well-defined phases, each essential for achieving success.
 
-Si estás leyendo esto en GitHub, puedes hacer clic en el botón "Usar esta plantilla" arriba para crear un nuevo repositorio desde astroship hacia tu cuenta. Luego puedes hacer un `git clone` para clonarlo en tu sistema local.
+## Overview
 
-Alternativamente, puedes clonar el proyecto directamente desde este repositorio hacia tu sistema local.
+Astroship offers a step-by-step guide for implementing project-based learning in professional settings. It replaces traditional knowledge transmission with a modern, action-oriented model. The platform helps users navigate each project phase effectively, ensuring proper planning, execution, and evaluation.
 
-### 1. Clonar el repositorio
+## Key Phases of the Model
 
-```bash
-git clone https://github.com/villarley/astroship.git
-npm install
-# o
-npm run dev
-npm run preview
-npm run build
-##Estructura
-/
-├── public/
-│   └── ...
-├── src/
-│   ├── components/
-│   │   └── ...
-│   ├── layouts/
-│   │   └── ...
-│   └── pages/
-│       └── ...
-└── package.json
+1. **Informar**: Collecting necessary data to explore various project possibilities.
+2. **Planificar**: Creating a detailed project plan.
+3. **Decidir**: Choosing the best strategies for implementation based on the gathered information.
+4. **Ejecutar**: Implementing the project plan, adapting as needed.
+5. **Controlar**: Offering feedback for improvement both individually and as a group.
+6. **Valorar**: Reflecting on successes and failures to identify areas for improvement.
+
+## Usage
+
+Visit the [Astroship platform](https://villarley.github.io/astroship/) for a complete step-by-step guide, including documents and explanatory videos, to help you successfully implement this project model in your educational or professional environment.
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues or submit pull requests with improvements to the methodology or platform.
+
