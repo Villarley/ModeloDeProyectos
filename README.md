@@ -1,6 +1,6 @@
-# Astroship
+# Modelo de proyectos
 
-Astroship is a platform aimed at teaching the **"Modelo de Proyectos para Formación Profesional"**. This structure provides a straightforward and practical approach for developing successful projects by following a series of well-defined phases, each essential for achieving success.
+Modelo de proyectos is a platform aimed at teaching the **"Modelo de Proyectos para Formación Profesional"**. This structure provides a straightforward and practical approach for developing successful projects by following a series of well-defined phases, each essential for achieving success.
 
 ## Overview
 
